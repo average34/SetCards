@@ -46,7 +46,7 @@
     <Compile Include="Cards\Card.cs" />
     <Compile Include="Cards\CardExtensions.cs" />
     <Compile Include="Cards\CardListExtensions.cs" />
-    <Compile Include="Cards\Deck.cs" />
+    <Compile Include="Cards\DeckFunc.cs" />
     <Compile Include="Cards\Topology.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
