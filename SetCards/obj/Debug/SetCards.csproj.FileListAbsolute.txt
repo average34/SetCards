@@ -5,3 +5,10 @@ C:\Users\ycasso01\source\repos\SetCards\SetCards\obj\Debug\SetCards.csprojAssemb
 C:\Users\ycasso01\source\repos\SetCards\SetCards\obj\Debug\SetCards.csproj.CoreCompileInputs.cache
 C:\Users\ycasso01\source\repos\SetCards\SetCards\obj\Debug\SetCards.exe
 C:\Users\ycasso01\source\repos\SetCards\SetCards\obj\Debug\SetCards.pdb
+C:\Users\dream\Dropbox\SetCards\SetCards\bin\Debug\SetCards.exe.config
+C:\Users\dream\Dropbox\SetCards\SetCards\bin\Debug\SetCards.exe
+C:\Users\dream\Dropbox\SetCards\SetCards\bin\Debug\SetCards.pdb
+C:\Users\dream\Dropbox\SetCards\SetCards\obj\Debug\SetCards.csprojResolveAssemblyReference.cache
+C:\Users\dream\Dropbox\SetCards\SetCards\obj\Debug\SetCards.csproj.CoreCompileInputs.cache
+C:\Users\dream\Dropbox\SetCards\SetCards\obj\Debug\SetCards.exe
+C:\Users\dream\Dropbox\SetCards\SetCards\obj\Debug\SetCards.pdb

@@ -17,7 +17,9 @@ namespace SetCards
             Console.WriteLine(c.Cardinality());
             Console.WriteLine(c.NOT());
             Console.WriteLine(c2.Contained(c));
-
+            var Deck = DeckFunc.MakeDeck();
+            Deck.Sort(DeckFunc.CompareByContain);
+            Console.WriteLine(Deck.DeckView());
             // Keep the console window open in debug mode.
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
