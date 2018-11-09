@@ -1,0 +1,7 @@
+C:\Users\ycasso01\source\repos\SetCards\SetCards\bin\Debug\SetCards.exe.config
+C:\Users\ycasso01\source\repos\SetCards\SetCards\bin\Debug\SetCards.exe
+C:\Users\ycasso01\source\repos\SetCards\SetCards\bin\Debug\SetCards.pdb
+C:\Users\ycasso01\source\repos\SetCards\SetCards\obj\Debug\SetCards.csprojAssemblyReference.cache
+C:\Users\ycasso01\source\repos\SetCards\SetCards\obj\Debug\SetCards.csproj.CoreCompileInputs.cache
+C:\Users\ycasso01\source\repos\SetCards\SetCards\obj\Debug\SetCards.exe
+C:\Users\ycasso01\source\repos\SetCards\SetCards\obj\Debug\SetCards.pdb
