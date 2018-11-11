@@ -18,7 +18,7 @@ namespace SetCards
             Console.WriteLine(c.NOT());
             Console.WriteLine(c2.Contained(c));
             var Deck = DeckFunc.MakeDeck();
-            Deck.Sort(DeckFunc.CompareByContain);
+            Deck.Sort(DeckFunc.CompareBy);
             Console.WriteLine(Deck.DeckView());
             // Keep the console window open in debug mode.
             Console.WriteLine("Press any key to exit.");

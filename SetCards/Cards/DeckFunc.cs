@@ -10,17 +10,33 @@ namespace SetCards.Cards
 
     public static class DeckFunc
     {
-        
+
         //====================================
         //引数なし
         //====================================
 
+            /// <summary>
+            /// デッキを作る関数。
+            /// </summary>
+            /// <returns></returns>
         public static List<Card> MakeDeck()
         {
             List<Card> Deck = new List<Card>();
+            Deck.AddRange(MakeHalfDeck(1));
+            Deck.AddRange(MakeHalfDeck(2));
+            return Deck;
+
+        }
+
+        /// <summary>
+        /// 色の統一された32枚のデッキを作る関数。
+        /// </summary>
+        /// <param name="Suit">スート。0:色なし 1:黒 2:赤</param>
+        /// <returns></returns>
+        public static List<Card> MakeHalfDeck(int Suit)
+        {
+            List<Card> Deck = new List<Card>();
             string Number;
-            for (int Suit = 1; Suit <= 2; Suit++)
-            {
                 for (int Exist1 = 0; Exist1 <= 1; Exist1++)
                 {
 
@@ -51,8 +67,6 @@ namespace SetCards.Cards
                         }
                     }
                 }
-            }
-
             Deck.Sort(DeckFunc.CompareBy);
             return Deck;
         }
@@ -74,13 +88,17 @@ namespace SetCards.Cards
             {
                 return 0;
             }
-            if (x == null)
+            else if (x == null)
             {
                 return -1;
             }
-            if (y == null)
+            else if (y == null)
             {
                 return 1;
+            }
+            if(x.Suit != y.Suit)
+            {
+                return x.Suit - y.Suit;
             }
 
             //文字列を比較する
@@ -114,6 +132,12 @@ namespace SetCards.Cards
             else if (x.Contains(y)) { return 1; }
             else
             {
+
+                //スートで比較
+                if (x.Suit != y.Suit)
+                {
+                    return x.Suit - y.Suit;
+                }
 
                 //比較できない場合
                 return 65535;
