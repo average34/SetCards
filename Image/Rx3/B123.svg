@@ -15,7 +15,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="R123.svg">
+   sodipodi:docname="B123.svg"
+   inkscape:export-filename="C:\Users\dream\Dropbox\SetCards\Image\Rx3\B123.png"
+   inkscape:export-xdpi="350"
+   inkscape:export-ydpi="350">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -26,10 +29,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.278545"
-     inkscape:cx="-0.14555505"
+     inkscape:cx="-130.76278"
      inkscape:cy="168.65466"
      inkscape:document-units="in"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:snap-page="true"
      inkscape:pagecheckerboard="true"
@@ -68,7 +71,7 @@
        rx="30"
        ry="30" />
     <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:1.82693958;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.82693958;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect3722-7"
        width="183.17307"
        height="308.17307"
@@ -102,7 +105,7 @@
      inkscape:label="文字">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:tb-rl;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.04166675"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:tb-rl;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.04166675;"
        x="-21.099998"
        y="-63.950001"
        id="text4654"
@@ -111,10 +114,10 @@
          id="tspan4652"
          x="-108.95"
          y="23.9"
-         style="font-size:25px;line-height:1.25;text-align:center;writing-mode:tb-rl;text-anchor:middle;fill:#ff0000;stroke-width:1.04166675">{1,2,3}</tspan></text>
+         style="font-size:25px;line-height:1.25;text-align:center;writing-mode:tb-rl;text-anchor:middle;fill:#000000;stroke-width:1.04166675;">{1,2,3}</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:tb-rl;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.04166675"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:tb-rl;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.04166675;"
        x="198.89999"
        y="283.95001"
        id="text4654-7"><tspan
@@ -122,10 +125,10 @@
          id="tspan4652-7"
          x="678.95001"
          y="-196.10001"
-         style="font-size:25px;line-height:1.25;text-align:center;writing-mode:tb-rl;text-anchor:middle;fill:#ff0000;stroke-width:1.04166675">{1,2,3}</tspan></text>
+         style="font-size:25px;line-height:1.25;text-align:center;writing-mode:tb-rl;text-anchor:middle;fill:#000000;stroke-width:1.04166675;">{1,2,3}</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:77.77777863px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.04166675"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:77.77777863px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.04166675;"
        x="115.02222"
        y="100"
        id="text827"><tspan
@@ -133,10 +136,10 @@
          id="tspan825"
          x="115.02222"
          y="100"
-         style="font-size:77.77777863px;text-align:center;text-anchor:middle;fill:#ff0000;stroke-width:1.04166675">1</tspan></text>
+         style="font-size:77.77777863px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:1.04166675;">1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:77.77777863px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.04166675"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:77.77777863px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.04166675;"
        x="115.02222"
        y="200"
        id="text827-4"><tspan
@@ -144,10 +147,10 @@
          id="tspan825-0"
          x="115.02222"
          y="200"
-         style="font-size:77.77777863px;text-align:center;text-anchor:middle;fill:#ff0000;stroke-width:1.04166675">2</tspan></text>
+         style="font-size:77.77777863px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:1.04166675;">2</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:77.77777863px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.04166675"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:77.77777863px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.04166675;"
        x="115.02222"
        y="300"
        id="text827-2"><tspan
@@ -155,6 +158,6 @@
          id="tspan825-9"
          x="115.02222"
          y="300"
-         style="font-size:77.77777863px;text-align:center;text-anchor:middle;fill:#ff0000;stroke-width:1.04166675">3</tspan></text>
+         style="font-size:77.77777863px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:1.04166675;">3</tspan></text>
   </g>
 </svg>

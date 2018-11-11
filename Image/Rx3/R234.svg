@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.278545"
-     inkscape:cx="-0.14555505"
+     inkscape:cx="-130.76278"
      inkscape:cy="168.65466"
      inkscape:document-units="in"
      inkscape:current-layer="layer3"
@@ -49,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -103,24 +103,26 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:tb-rl;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.04166675"
-       x="23.9"
-       y="63.950001"
-       id="text4654"><tspan
+       x="-21.099998"
+       y="-63.950001"
+       id="text4654"
+       transform="scale(-1)"><tspan
          sodipodi:role="line"
          id="tspan4652"
-         x="63.950001"
+         x="-108.95"
          y="23.9"
          style="font-size:25px;line-height:1.25;text-align:center;writing-mode:tb-rl;text-anchor:middle;fill:#ff0000;stroke-width:1.04166675">{2,3,4}</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:tb-rl;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.04166675"
-       x="-196.10001"
-       y="-283.95001"
+       x="198.89999"
+       y="283.95001"
        id="text4654-7"
-       transform="scale(-1)"><tspan
+       inkscape:export-xdpi="350"
+       inkscape:export-ydpi="350"><tspan
          sodipodi:role="line"
          id="tspan4652-7"
-         x="-283.95001"
+         x="678.95001"
          y="-196.10001"
          style="font-size:25px;line-height:1.25;text-align:center;writing-mode:tb-rl;text-anchor:middle;fill:#ff0000;stroke-width:1.04166675">{2,3,4}</tspan></text>
     <text
