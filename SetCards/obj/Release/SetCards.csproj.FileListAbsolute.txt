@@ -1,0 +1,7 @@
+C:\Users\dream\Dropbox\SetCards\SetCards\bin\Release\SetCards.exe.config
+C:\Users\dream\Dropbox\SetCards\SetCards\bin\Release\SetCards.exe
+C:\Users\dream\Dropbox\SetCards\SetCards\bin\Release\SetCards.pdb
+C:\Users\dream\Dropbox\SetCards\SetCards\obj\Release\SetCards.csproj.CoreCompileInputs.cache
+C:\Users\dream\Dropbox\SetCards\SetCards\obj\Release\SetCards.exe
+C:\Users\dream\Dropbox\SetCards\SetCards\obj\Release\SetCards.pdb
+C:\Users\dream\Dropbox\SetCards\SetCards\obj\Release\SetCards.csprojResolveAssemblyReference.cache

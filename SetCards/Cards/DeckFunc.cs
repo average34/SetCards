@@ -143,5 +143,42 @@ namespace SetCards.Cards
                 return 65535;
             }
         }
+
+        /// <summary>
+        /// 濃度順
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
+        public static int CompareByCardinality(Card x, Card y)
+        {
+            //nullが最も小さいとする
+            if (x == null && y == null)
+            {
+                return 0;
+            }
+            else if (x == null)
+            {
+                return -1;
+            }
+            else if (y == null)
+            {
+                return 1;
+            }
+
+            if(x.Cardinality() != y.Cardinality())
+            {
+                return x.Cardinality() - y.Cardinality();
+            }
+
+            if (x.Suit != y.Suit)
+            {
+                return x.Suit - y.Suit;
+            }
+
+            //文字列を比較する
+            return string.Compare(x.ToString(), y.ToString());
+        }
+
     }
 }

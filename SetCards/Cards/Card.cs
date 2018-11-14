@@ -30,11 +30,11 @@ namespace SetCards.Cards
         /// </summary>
         private string _number;
         // カードの数字が含まれているかどうか
-        public bool ExistOne { get; private set; }
-        public bool ExistTwo { get; private set; }
-        public bool ExistThree { get; private set; }
-        public bool ExistFour { get; private set; }
-        public bool ExistFive { get; private set; }
+        private bool _ExistOne;
+        private bool _ExistTwo;
+        private bool _ExistThree;
+        private bool _ExistFour;
+        private bool _ExistFive;
 
         //カードの数字を代入する処理
         public string Number
@@ -42,18 +42,30 @@ namespace SetCards.Cards
             get { return _number; }
             set
             {
-                this.ExistOne = value.Contains("1");
-                this.ExistTwo = value.Contains("2");
-                this.ExistThree = value.Contains("3");
-                this.ExistFour = value.Contains("4");
-                this.ExistFive = value.Contains("5");
-                this._number = null;
-                if (ExistOne) { this._number += "1"; }
-                if (ExistTwo) { this._number += "2"; }
-                if (ExistThree) { this._number += "3"; }
-                if (ExistFour) { this._number += "4"; }
-                if (ExistFive) { this._number += "5"; }
+                if (value == null)
+                {
+                    this._ExistOne = false;
+                    this._ExistTwo = false;
+                    this._ExistThree = false;
+                    this._ExistFour = false;
+                    this._ExistFive = false;
+                    this._number = null;
+                }
+                else
+                {
 
+                    this._ExistOne = value.Contains("1");
+                    this._ExistTwo = value.Contains("2");
+                    this._ExistThree = value.Contains("3");
+                    this._ExistFour = value.Contains("4");
+                    this._ExistFive = value.Contains("5");
+                    this._number = null;
+                    if (_ExistOne) { this._number += "1"; }
+                    if (_ExistTwo) { this._number += "2"; }
+                    if (_ExistThree) { this._number += "3"; }
+                    if (_ExistFour) { this._number += "4"; }
+                    if (_ExistFive) { this._number += "5"; }
+                }
             }
         }
 
@@ -65,18 +77,26 @@ namespace SetCards.Cards
             get
             {
                 bool[] Array = new bool[5];
-                Array[0] = ExistOne;
-                Array[1] = ExistTwo;
-                Array[2] = ExistThree;
-                Array[3] = ExistFour;
-                Array[4] = ExistFive;
+                Array[0] = _ExistOne;
+                Array[1] = _ExistTwo;
+                Array[2] = _ExistThree;
+                Array[3] = _ExistFour;
+                Array[4] = _ExistFive;
                 return Array;
             }
         }
 
         //=====================================================
-        //初期化子
+        //コンストラクタ（構築子）
         //=====================================================
+        //カード作成(null)
+        public Card()
+        {
+            this.Suit = 0;
+            this.Number = null;
+        }
+
+
         //カード作成
         public Card(int inputSuit, string inputNumber)
         {

@@ -20,5 +20,17 @@ namespace SetCards.Cards
             return str;
         }
 
+        public static string TopologiesView(this List<List<Card>> Topologies)
+        {
+            string str = "";
+            foreach (List<Card> Deck in Topologies)
+            {
+                str += Deck.DeckView();
+                str += "\r\n";
+            }
+
+            return str;
+        }
+
     }
 }
