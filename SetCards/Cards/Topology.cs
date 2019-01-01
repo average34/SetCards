@@ -82,18 +82,31 @@ namespace SetCards.Cards
         }
 
 
+        /// <summary>
+        /// カードの集合がT0空間（コルモゴロフ空間）を成すかどうかを判定する関数。
+        /// </summary>
+        /// <param name="CardList">カードの集合</param>
+        /// <returns>true:CardListはT0空間となる</returns>
         public static bool IsT0(IEnumerable<Card> CardList)
         {
+            //まず位相空間か判定
             if (!IsTopological(CardList)){ return false; }
 
             bool IsT0 = true;
             //x, y が T0-空間 X の相異なる二点ならば、x または y の一方を含む開集合で、他方を含まないようなものが存在する。
             for (int x = 1; x <= 5; x++)
             {
+
+                //そもそもないものは除外
+                if (!CardList.Any(c => c.ExistArray[x - 1])) { continue; }
+
                 for (int y = 1; y <= 5; y++)
                 {
                     //x,yは異なるので除外
                     if (x == y) { continue; }
+
+                    //そもそもないものは除外
+                    if (!CardList.Any(c => c.ExistArray[y - 1])) { continue; }
 
                     if (!CardList.Any(c => 
                     (c.ExistArray[x - 1] == true && c.ExistArray[y - 1] == false) || 
@@ -104,6 +117,42 @@ namespace SetCards.Cards
             }
 
             return IsT0;
+        }
+
+        /// <summary>
+        /// カードの集合が離散空間を成すかどうかを判定する関数。
+        /// 全体集合はU={1,2,3,4,5}ではなく、その集合における最大の開集合。
+        /// </summary>
+        /// <param name="CardList">カードの集合</param>
+        /// <returns>true:CardListは離散空間となる</returns>
+        public static bool IsDiscrete(IEnumerable<Card> CardList)
+        {
+            //まず位相空間か判定
+            if (!IsTopological(CardList)) { return false; }
+            
+            //x, y が T1-空間 X の相異なる二点ならば、x を含み y を含まない開集合と、x を含まず y を含む開集合が同時に存在する。
+            //有限位相空間において、T1空間は離散空間である。
+            for (int x = 1; x <= 5; x++)
+            {
+                //そもそもないものは除外
+                if (!CardList.Any(c => c.ExistArray[x - 1])) { continue; }
+                for (int y = 1; y <= 5; y++)
+                {
+
+                    //そもそもないものは除外
+                    if (!CardList.Any(c => c.ExistArray[y - 1])) { continue; }
+
+                    //x,yは異なるので除外
+                    if (x == y) { continue; }
+
+                    bool x1y0 = CardList.Any(c => c.ExistArray[x - 1] == true && c.ExistArray[y - 1] == false);
+                    bool x0y1 = CardList.Any(c => c.ExistArray[x - 1] == false && c.ExistArray[y - 1] == true);
+                    if(!x1y0 || !x0y1) { return false; }
+
+                }
+            }
+            return true;
+
         }
 
 
@@ -162,8 +211,8 @@ namespace SetCards.Cards
 
 
         /// <summary>
-        /// n=5の5点集合からなる有限位相空間6942種を生成する関数。
-        /// 生成にはとても時間がかかるため、このオブジェクトを別途jsonやxmlに保存したほうがよい。
+        /// n=5の5点集合からなる有限位相空間9053種を生成する関数。
+        /// 生成にはとても時間がかかる（10時間程度）ため、このオブジェクトを別途jsonやxmlに保存したほうがよい。
         /// </summary>
         /// <param name="Suit">スート。0:色なし 1:黒 2:赤</param>
         /// <returns></returns>
@@ -173,24 +222,39 @@ namespace SetCards.Cards
             //全体集合の冪集合
             List<Card> P_U;
 
-            //有限位相空間6942種を格納するリスト（入れ子）
+            //有限位相空間9053種を格納するリスト（入れ子）
             List<List<Card>> TopologyDeck = new List<List<Card>>();
             //上記リストに入れる位相空間
             List<Card> TopologySpace;
 
-            //2^2^5 = 4294967296 パターンを試すハメになる。正気ではない
-            
+            //2^(2^5 - 1) / 2 = 2^30 = 1073741824 パターンを試すハメになる。かなり時間がかかる。
+            //要素を特定するだけならもっと良いアルゴリズムがあるはず。改善求む
+
+            //全体集合の冪集合を作成
             P_U = DeckFunc.MakeHalfDeck(Suit);
             P_U.Sort(DeckFunc.CompareByCardinality);
 
+            
+            uint b = 4;
+            bool DisNext = false;
+
             for (uint bit31 = 0; bit31 < Math.Pow(2,31) ; bit31++)
             {
+                //離散空間の次の位相空間のナンバーを記録する
+                //この位相空間は密着位相である
+                if (DisNext)
+                {
+                    b = bit31;
+                    DisNext = false;
+                }
 
                     //位相空間を初期化
                     TopologySpace = new List<Card>();
 
                 //空集合を入れる。これは必ず入れる
                 TopologySpace.Add(new Card(Suit, "0"));
+
+                //ビット演算によって要素の有無を判定。
                 for (int j = 1; j < 32; j++)
                 {
                     if ((bit31 & (uint)Math.Pow(2,j-1)) == (uint)Math.Pow(2, j - 1))
@@ -204,9 +268,33 @@ namespace SetCards.Cards
                 {
                     TopologyDeck.Add(TopologySpace);
 
-                    Console.WriteLine(bit31 + ":" + TopologyDeck.Count + ":" + TopologySpace.DeckView());
-                }
+                    bool T0 = IsT0(TopologySpace);
+                    bool Dis = IsDiscrete(TopologySpace);
 
+
+                    System.IO.StreamWriter sw = new System.IO.StreamWriter(
+                      "test.txt", // 出力先ファイル名
+                      true, // 追加書き込み
+                      System.Text.Encoding.GetEncoding("Shift_JIS"));
+
+                    //Console.SetOut(sw); // 出力先（Outプロパティ）を設定
+
+                    Console.WriteLine(bit31.ToString("x4") + ":" +
+                        TopologyDeck.Count + ":" + Dis + ":" +
+                        TopologySpace.DeckView());
+
+                    //離散空間の場合、しばらくの間は位相空間となる数字が出てこないので、
+                    //bit31の値を倍にする
+                    if (Dis && bit31 >= 4)
+                    {
+                        DisNext = true;
+                        bit31 = b * 2 - 1;
+                    }
+
+
+                    sw.Dispose(); // ファイルを閉じてオブジェクトを破棄
+
+                }
                 TopologySpace = null;
             }
             return TopologyDeck;

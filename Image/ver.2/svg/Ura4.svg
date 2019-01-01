@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2.25in"
+   height="3.5in"
+   viewBox="0 0 225 350"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="Ura4.svg"
+   inkscape:export-filename="C:\Users\dream\Dropbox\SetCards\Image\ver.2\Ura4.png"
+   inkscape:export-xdpi="350"
+   inkscape:export-ydpi="350">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2"
+     inkscape:cx="93.75"
+     inkscape:cy="167.23511"
+     inkscape:document-units="in"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:snap-page="true"
+     inkscape:pagecheckerboard="true"
+     units="in"
+     scale-x="100"
+     showguides="true"
+     inkscape:window-width="1282"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid858" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="カード背景"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-208.09996)">
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:4.91032839;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.32211543"
+       id="rect3722"
+       width="220.08968"
+       height="345.08966"
+       x="2.4551642"
+       y="210.55513"
+       rx="29.345289"
+       ry="29.579115" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#0000cb;stroke-width:4.99895954;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3722-7"
+       width="185.00105"
+       height="305.00104"
+       x="19.999481"
+       y="230.59944"
+       rx="24.666803"
+       ry="26.142944" />
+    <circle
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000cb;stroke-width:6.77328348;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path841"
+       cx="112.5"
+       cy="343.09998"
+       r="71.613358" />
+    <circle
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000cb;stroke-width:6.77328348;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path841-4"
+       cx="112.5"
+       cy="423.09998"
+       r="71.613358" />
+    <path
+       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:2.4000001;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 49.402208,158.20096 c -4.53146,-9.35576 -6.456784,-17.75426 -6.495935,-28.33607 -0.04049,-10.94481 1.92484,-19.55121 6.654392,-29.14025 C 60.902936,77.728478 84.706388,63.539027 110.3,64.517374 c 17.45692,0.667312 32.23045,7.249639 44.37342,19.770518 8.62412,8.892519 13.62423,17.825738 16.69478,29.826998 1.73511,6.78169 2.19146,19.19598 0.96496,26.25 -0.97328,5.59764 -3.56024,13.59767 -5.8805,18.18515 l -1.65266,3.26753 -2.75,-3.27471 c -3.4397,-4.096 -10.58656,-10.10063 -16.19108,-13.60337 -7.83465,-4.89654 -17.28765,-8.36059 -27.03618,-9.90742 -6.16245,-0.97782 -19.584175,-0.67079 -25.27274,0.57812 -15.567416,3.41779 -29.993643,11.74948 -39.530807,22.83053 l -2.880075,3.3463 z"
+       id="path946"
+       inkscape:connector-curvature="0"
+       transform="matrix(1.0416667,0,0,1.0416667,0,208.09996)" />
+    <path
+       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:2.4000001;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 102.05,271.3442 c -22.227375,-2.13682 -41.587668,-15.1626 -51.929648,-34.93873 -4.957827,-9.48044 -7.224223,-18.90489 -7.224176,-30.04058 4.4e-5,-10.26702 1.871305,-18.72745 6.173183,-27.91047 l 1.949012,-4.16046 4.640814,4.85653 c 2.552448,2.67109 6.339001,6.14997 8.414561,7.73085 16.581941,12.62989 37.939084,17.55777 58.226254,13.43495 14.51041,-2.94885 26.04453,-9.20741 36.87269,-20.00762 l 5.87268,-5.85752 1.78471,3.7609 c 4.27816,9.01538 6.21564,17.86787 6.21631,28.40284 0.001,13.41718 -3.39675,24.74678 -10.72024,35.7475 -5.4419,8.17439 -12.8537,15.26274 -21.02615,20.10857 -11.68347,6.9277 -25.94661,10.15217 -39.25,8.87324 z"
+       id="path948"
+       inkscape:connector-curvature="0"
+       transform="matrix(1.0416667,0,0,1.0416667,0,208.09996)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="白抜き" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="文字">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.04166675"
+       x="116.1"
+       y="150"
+       id="text827"><tspan
+         sodipodi:role="line"
+         id="tspan825"
+         x="116.1"
+         y="243.10001"
+         style="font-size:100px;text-align:center;text-anchor:middle;fill:#ff0000;stroke-width:1.04166675" /></text>
+  </g>
+</svg>

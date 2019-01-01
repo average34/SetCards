@@ -65,6 +65,12 @@ namespace SetCards.Cards
                     if (_ExistThree) { this._number += "3"; }
                     if (_ExistFour) { this._number += "4"; }
                     if (_ExistFive) { this._number += "5"; }
+
+
+                    //スートの代入
+                    if (value.Contains("B")) { this._suit = 1; }
+                    else if (value.Contains("R")) { this._suit = 2; }
+                    else if (value.Contains("N")) { this._suit = 0; }
                 }
             }
         }
@@ -97,14 +103,26 @@ namespace SetCards.Cards
         }
 
 
-        //カード作成
+        //カード作成1
         public Card(int inputSuit, string inputNumber)
         {
             this.Suit = inputSuit;
             this.Number = inputNumber;
         }
 
-        //カード作成(スートに文字列を入れた場合)
+        //カード作成2
+        public Card(string inputString)
+        {
+
+            //スートの代入
+            if (inputString.Contains("B")) { this._suit = 1; }
+            else if (inputString.Contains("R")) { this._suit = 2; }
+            else { this._suit = 0; }
+            this.Number = inputString;
+        }
+
+
+        //カード作成3(スートに文字列を入れた場合)
         public Card(string inputStrSuit, string inputNumber)
         {
             if (inputStrSuit == "N") { this.Suit = 0; }
